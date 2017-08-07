@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function(req, res) {
-  res.sendFile('article-one.html', { root: path.join(__dirname, 'https://imad.hasura.io/code/files/article-one.html') });
+  res.sendFile(path.join(__dirname, 'https://imad.hasura.io/code/files/article-one.html', 'article-one.html'));
 });
 
 app.get('/article-two', function(req, res) {
