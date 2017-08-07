@@ -14,11 +14,11 @@ app.get('/article-one',function(req, res){
 });
 
 app.get('/article-two',function(req, res){
-    res.send('Article two file is inserted here');
+    res.send("Article two file is inserted here");
 });
 
 app.get('/article-three',function(req, res){
-    res.send('Article three file is inserted here');
+    res.send("Article three file is inserted here");
 });
 
 
