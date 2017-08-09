@@ -5,4 +5,4 @@ console.log('Loaded!');
 var element = document.getElementById('main-text'
 );
 
-element.InnerHTML = 'Hi. This is vaish and i am super cool B)';
+element.InnerHTML = "Hi. This is vaish and i am super cool B)";
