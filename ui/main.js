@@ -7,7 +7,7 @@ element.InnerHTML = "New text.";
 var img = document.getElementById('id');
 var marginLeft = 0;
 function marginRight() {
-    marginLeft = marginLeft + 100
+    marginLeft = marginLeft + 100;
     img.style.marginLeft = marginLeft + 'px';
 }
 img.onclick = function(){
